@@ -2,46 +2,41 @@ import { Database, BarChart3, Brain, Code, Cloud, Sparkles } from 'lucide-react'
 
 const skills = [
   {
-    icon: Brain,
-    title: 'Machine Learning',
-    items: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'XGBoost', 'Random Forest', 'Neural Networks']
+    icon: Sparkles,
+    title: 'Data Analysis',
+    items: ['Pandas', 'Time Series', 'A/B Testing', 'Data Exploratory', 'Data Cleaning', 'Numpy']
   },
   {
     icon: BarChart3,
     title: 'Data Visualization',
-    items: ['Tableau', 'Power BI', 'Matplotlib', 'Seaborn', 'D3.js', 'Plotly']
+    items: ['Tableau', 'Power BI', 'Looker Studio', 'Matplotlib', 'Seaborn', 'D3.js', 'Plotly', 'Excel']
   },
   {
     icon: Code,
     title: 'Programming',
-    items: ['Python', 'R', 'SQL', 'JavaScript', 'Java', 'Scala']
+    items: ['Python', 'R', 'SQL', 'JavaScript']
   },
   {
     icon: Database,
     title: 'Data Engineering',
-    items: ['PostgreSQL', 'MongoDB', 'Apache Spark', 'Airflow', 'ETL', 'Data Warehousing']
+    items: ['PostgreSQL', 'SQL Server', 'MySQL', 'BigQuery', 'Apache Spark', 'Airflow', 'ETL', 'Data Warehousing']
   },
   {
     icon: Cloud,
     title: 'Cloud & DevOps',
-    items: ['AWS', 'Azure', 'GCP', 'Docker', 'Kubernetes', 'CI/CD']
+    items: ['AWS', 'Azure']
   },
-  {
-    icon: Sparkles,
-    title: 'Specializations',
-    items: ['NLP', 'Time Series', 'A/B Testing', 'Deep Learning', 'Computer Vision', 'MLOps']
+    {
+    icon: Brain,
+    title: 'Machine Learning',
+    items: ['Scikit-learn', 'XGBoost', 'Random Forest']
   }
 ];
 
 const certifications = [
-  'AWS Certified Machine Learning - Specialty',
-  'Google Professional Data Engineer',
-  'Microsoft Certified: Azure Data Scientist Associate',
-  'TensorFlow Developer Certificate',
-  'Tableau Desktop Specialist',
-  'Deep Learning Specialization - Coursera',
-  'Advanced Data Science - IBM',
-  'Professional Certificate in Data Science - Harvard'
+  'Google Advanced Data Analytics Specialization',
+  'Microsoft Certified: Power BI Data Analyst Associate',
+  'Data Scientist: Analytics'
 ];
 
 const interests = [
@@ -61,9 +56,8 @@ const services = [
   'Predictive Modeling',
   'Dashboard Development',
   'Statistical Consulting',
-  'Data Pipeline Architecture',
-  'ML Model Deployment',
-  'Training & Workshops'
+  'Project Management',
+  'ML Model Deployment'
 ];
 
 export function SkillsSection() {

@@ -8,10 +8,10 @@ export function AboutSection() {
           <div className="space-y-6">
             <div className="space-y-2">
               <p className="text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wider">
-                Data Analyst & Data Scientist
+                Data Analyst & Project Manager
               </p>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white">
-                Hi, I'm Alex Chen
+                Hi, I'm Edwing Jimenez
               </h1>
             </div>
 
@@ -26,9 +26,9 @@ export function AboutSection() {
                 Background
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                5+ years of experience in data science and analytics. M.S. in Data Science from Stanford University.
+                5+ years of experience in data science and analytics. Bsc. in Industrial Engineering.
                 Previously worked at Fortune 500 companies and innovative startups, delivering impactful solutions
-                across finance, healthcare, and e-commerce sectors.
+                across healthcare, and e-commerce sectors.
               </p>
             </div>
 
@@ -43,26 +43,26 @@ export function AboutSection() {
 
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/edwngjs/"
                   className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all hover:scale-110"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="w-5 h-5 text-gray-700 dark:text-gray-300" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/EdwngJs"
                   className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all hover:scale-110"
                   aria-label="GitHub"
                 >
                   <Github className="w-5 h-5 text-gray-700 dark:text-gray-300" />
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all hover:scale-110"
-                  aria-label="Twitter"
+                  aria-label="X (formerly Twitter)"
                 >
                   <Twitter className="w-5 h-5 text-gray-700 dark:text-gray-300" />
-                </a>
+                </a> */}
                 <a
                   href="#"
                   className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all hover:scale-110"
@@ -77,7 +77,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://github.com/EdwngJs/Edwngjs.github.io-old-/blob/main/images/Profile%20Pic%20New%20Cropped.png?raw=true"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

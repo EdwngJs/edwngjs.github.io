@@ -16,7 +16,7 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-semibold text-gray-900 dark:text-white">
-            Portfolio
+            Edwing Portfolio
           </div>
 
           <div className="flex items-center gap-8">
