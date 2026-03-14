@@ -77,7 +77,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
               <img
-                src="https://github.com/EdwngJs/Edwngjs.github.io-old-/blob/main/images/Profile%20Pic%20New%20Cropped.png?raw=true"
+                src="https://github.com/EdwngJs/Edwngjs.github.io-old-/blob/main/images/Profile%20Pic%20New%20Cropped%20resized.png?raw=true"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
