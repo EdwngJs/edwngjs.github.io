@@ -11,7 +11,7 @@ export function AboutSection() {
                 Data Analyst & Project Manager
               </p>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white">
-                Hi, I'm Edwing Jimenez
+                Hi, I'm Edwing
               </h1>
             </div>
 
@@ -77,7 +77,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
               <img
-                src="https://github.com/EdwngJs/Edwngjs.github.io-old-/blob/main/images/Profile%20Pic%20New%20Cropped%20resized.png?raw=true"
+                src="src\images\Profile Pic New Cropped resized squared.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

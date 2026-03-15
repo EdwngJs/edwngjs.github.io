@@ -77,7 +77,7 @@ export function ProjectDetail({ projectId, onBack }: ProjectDetailProps) {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
               {project.title}
             </h1>
-            <p className="text-xl text-gray-600 dark: text-gray-300">
+            <p className="text-xl text-gray-600 dark:text-gray-300">
               {project.short_description}
             </p>
           </div>
@@ -107,7 +107,7 @@ export function ProjectDetail({ projectId, onBack }: ProjectDetailProps) {
                 href={project.demo_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 border-2 border-gray-900 dark:border-white text-gray-900 dark: text-white rounded-full hover: bg-gray-100 dark:hover:bg-gray-800 transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3 border-2 border-gray-900 dark:border-white text-gray-900 dark:text-white rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-all"
               >
                 <ExternalLink className="w-5 h-5" />
                 View Demo
