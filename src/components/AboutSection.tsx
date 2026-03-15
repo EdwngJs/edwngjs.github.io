@@ -1,4 +1,6 @@
+import myProfileImage from "../images/profile-pic.png";
 import { Download, Linkedin, Github, Mail, Twitter } from 'lucide-react';
+
 
 export function AboutSection() {
   return (
@@ -77,7 +79,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
               <img
-                src="images\Profile Pic New Cropped resized squared.png"
+                src={myProfileImage}
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
