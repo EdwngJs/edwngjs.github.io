@@ -77,7 +77,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
               <img
-                src="src\images\Profile Pic New Cropped resized squared.png"
+                src="images\Profile Pic New Cropped resized squared.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
