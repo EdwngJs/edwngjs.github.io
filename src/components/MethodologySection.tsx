@@ -22,7 +22,7 @@ export function MethodologySection({ content }:  MethodologySectionProps) {
                 />
               ),
               h2: ({ node, ...props }) => (
-                <h3 className="text-xl font-bold text-gray-900 dark: text-white mt-6 mb-3" {...props} />
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3" {...props} />
               ),
               h3: ({ node, ...props }) => (
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white mt-4 mb-2" {...props} />

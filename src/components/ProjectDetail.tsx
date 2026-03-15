@@ -44,7 +44,7 @@ export function ProjectDetail({ projectId, onBack }: ProjectDetailProps) {
 
   if (!project) {
     return (
-      <div className="min-h-screen bg-white dark: bg-gray-900 transition-colors flex items-center justify-center">
+      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors flex items-center justify-center">
         <div className="text-center">
           <p className="text-gray-600 dark:text-gray-400 mb-4">Project not found</p>
           <button
@@ -117,7 +117,7 @@ export function ProjectDetail({ projectId, onBack }: ProjectDetailProps) {
 
           <div className="space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark: text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Project Overview
               </h2>
               <p className="whitespace-pre-line">{project.full_description}</p>
@@ -141,7 +141,7 @@ export function ProjectDetail({ projectId, onBack }: ProjectDetailProps) {
 
             {project.key_achievements && project.key_achievements.length > 0 && (
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark: text-white mb-4">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   Key Achievements
                 </h2>
                 <ul className="space-y-2 list-disc list-inside">
